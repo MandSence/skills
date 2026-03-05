@@ -1,0 +1,21 @@
+{
+	"name": "my-skills",
+	"owner": {
+		"name": "Haowang"
+	},
+	"metadata": {
+		"description": "story generation skills",
+		"version": "1.0.0"
+	},
+	"plugins": [{
+		"name": "story-skills",
+		"description": "Collection of story generation skills including Fairy, Fun, Xianxia",
+		"source": "./",
+		"strict": false,
+		"skills": [
+			"./skills/fairy-tale-generator",
+			"./skills/fun-story-generator",
+			"./skills/xianxia-story-generator"
+		]
+	}]
+}
