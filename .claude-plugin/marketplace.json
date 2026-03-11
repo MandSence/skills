@@ -1,21 +1,22 @@
 {
-	"name": "my-skills",
+	"name": "ckh-marketplace",
 	"owner": {
-		"name": "Haowang"
+		"name": "HaoWang"
 	},
 	"metadata": {
-		"description": "story generation skills",
+		"description": "Skills for daily work",
 		"version": "1.0.0"
 	},
 	"plugins": [{
-		"name": "story-skills",
-		"description": "Collection of story generation skills including Fairy, Fun, Xianxia",
+		"name": "daily-skills",
+		"description": "Collection of daily work skills",
 		"source": "./",
 		"strict": false,
 		"skills": [
-			"./skills/fairy-tale-generator",
-			"./skills/fun-story-generator",
-			"./skills/xianxia-story-generator"
+			"./skills/code-extractor",
+			"./skills/code-from-design-doc",
+			"./skills/mermaid-to-png",
+			"./skills/software-copyright-applicant"
 		]
 	}]
 }
